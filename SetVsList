@@ -1,0 +1,36 @@
+1)List is an ordered collection it maintains the insertion order, which means upon displaying the list content will display 
+the elements in the same  order in which they got inserted into the list.
+Set is an unordered collection, it doesn't maintain any order. Only LinkedHashSet maintains the elements in 
+insertion order.
+
+2)List allows duplicate elements but set dosen't allow any duplicate elements.
+If we try to insert any duplicate elements in set it will replace the existing value.
+
+3)List Implementations: LinkedList,ArrayList
+  Set Implementations: Hashset, LinkedHashset,TreeSet
+ 
+4)List allows multiple null values but Set allows single null value atmost.
+
+5)ListIterator used to traverse List both backward and forward.Iterator is used to traverse a set.
+
+6)List Interface has one legacy class called Vedtor class but Set doesn't have any legacy classes.
+
+--------------------------------------------------------
+
+Legacy Class:
+--------------
+What are the Legacy classes in Java?
+Dictionary
+Properties
+HashTable
+Vector
+Stack
+Legacy Interface
+Enumeration
+
+Earlier versions of Java did not include the Collections Framework. Only in from version 1.2, 
+you could actually use this Legacy class. In this,  the original classes were reengineered to 
+support the collection interface. These classes are also known as Legacy classes. 
+All legacy classes and interfaces were redesigned by JDK 5 to support Generics. 
+
+

@@ -1,0 +1,19 @@
+1. ArrayList uses dynamic Array to store the elements.LinkedList internally uses doublyLinkedList to store the elements
+
+2. Manipulation with ArrayList is slow because it internally uses an array. If any element is removed, bit shifting is required in memory
+   location. Manipulation with linked list is faster as it uses doubly linked list, so no bit shifting is required in memory.
+ 
+3. Arraylist class can only act as a list as it only implements list but Linkedlist can act as both list and queue as
+   it implements List and Dqueue interfaces.
+
+4. Arraylist is better in storing and  accessing data. Linked List is better in manipulating data.
+
+---------------------------------
+Iterator Vs ListIterator
+1. Iterator can be used by different interfaces like Set, List, Map but ListIterator can only be used by LIST interface(ArrayList, Linked List)
+2. Iterator can be used only for forward traversing but ListIterator can be used for forward and backward both direction traversing.
+3. Iterator can be used only to remove the elements  but Listerator is used to add, remove, set the elements.
+4. Using iterator we can traverse only from starting postion of the collection but Listiterator is used to traverse from any position of the list.
+
+
+
